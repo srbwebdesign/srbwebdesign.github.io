@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*Logo Rules:
+Print - 30mm of total horizontal length
+Digital reproduction - 150px of total horizontal length
+
+Main Colour palette:
+Blue-Grey #B6CDEF
+Steele-Grey #707E8B
+Light-Grey #BDCADA
+Orange-Brown #DB8F51
+Brown #8A716A
+Red #8D280D
+Typeface Rules:
+Dancing+Script|Kaushan+Script|Lato
+Primary typeface - Lato
+Text no smaller than 13px except items such as disclaimers and footers
+All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
+
+/* Global CSS Styles */
+article, aside, div, section, footer, nav, a {
+        display:block;
+}
+html, body{
+        margin: 0 auto;
+        color: white;
+}
+html{
+        max-width:1024px;
+        position:relative;
+}
+body{
+        font-family: Lato, Arial;
+        max-width:1026px;
+        height:800px;
+}
+header{
+  background-color: #FFC675;
+  background-image:"image/sspt_hero_complete.jpg";
+  font-family: dancing+Script ;
+  font-weight: 800;
+  font-size: 3ems;
+  color:fffff;
+  text-align: center;
+    }
+#slogan{
+  font-family: dancing+Script;
+  font-size: 1.5ems;
+  color:fffff;
+}
+nav{
+  background-color: #E8C66A;
+}
+aside{
+  background-color: #FFC675;
+}
+article {
+	background-color: #E89C6C;
+}
+div, section {
+  background-color: #FFE2B8;
+}

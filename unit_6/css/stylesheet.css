@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*Logo Rules:
+Print - 30mm of total horizontal length
+Digital reproduction - 150px of total horizontal length
+
+Main Colour palette:
+Blue-Grey #B6CDEF
+Steele-Grey #707E8B
+Light-Grey #BDCADA
+Orange-Brown #DB8F51
+Brown #8A716A
+Red #8D280D
+Typeface Rules:
+Dancing+Script|Kaushan+Script|Lato
+Primary typeface - Lato
+Text no smaller than 13px except items such as disclaimers and footers
+All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
+
+/* Global CSS Styles */
+article, aside, div, section, footer, nav, a {
+        display:block;
+        max-width:1024px;
+}
+html, body{
+        margin: 0 auto;
+}
+html{
+        background-color:#707E8B;
+        position:relative;
+}
+header{
+  background-color:#FFED74;
+  text-align: center;
+}
+.wrapper{
+  background-color: #FFE2B8;
+}
+body{
+  font-family: Lato, Arial;
+  color:707E8B;
+  max-width:1026px;
+  height:800px;
+}
+nav{
+  background-color:#E8C66A;
+}
+#slogan{
+  background-color: #FFE2B8;
+  font-family: dancing+Script ;
+  font-weight: 800;
+  font-size: 3ems;
+  color:8D280D;
+  text-align: center;
+}
+article{
+  background-color:#E89C6C;
+}
+section{
+  background-color: #FFE2B8;
+}
+aside{
+	background-color:#FFC675;
+}
+footer{
+  background-color: #FF957E;
+}

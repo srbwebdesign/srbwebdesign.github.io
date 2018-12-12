@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*Logo Rules:
+Print - 30mm of total horizontal length
+Digital reproduction - 150px of total horizontal length
+
+Main Colour palette:
+Blue-Grey #B6CDEF
+Steele-Grey #707E8B
+Light-Grey #BDCADA
+Orange-Brown #DB8F51
+Brown #8A716A
+Red #8D280D
+
+
+
+
+Typeface Rules:
+Primary typeface - Trebuchet (alt - calibri or arial)
+Trebuchet Bold used for headings and highlighted words
+Text no smaller than 13px except items such as disclaimers and footers
+All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
+
+/* Global CSS Styles */
+article, aside, div, section, footer, nav, a {
+        display:block;
+}
+html, body{
+        margin: 0 auto;
+}
+html{
+        background-color:#969696;
+        position:relative;
+}
+body{
+  		  background-color: #707E8B;
+          font-family: Calibri, Arial;
+          color:#BDCADA;
+          max-width:1026px;
+          height:800px;
+}
+header{
+  background-image: url(""image/sspt_header_complete.jpg"");
+  background-size: cover;
+  background-position: center;
+    }
+h1 #slogan {
+	color: #8D280D;
+}
+section{
+	background-color: #BDCADA;
+	color: #B6CDEF;
+}
