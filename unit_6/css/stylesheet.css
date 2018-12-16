@@ -7,60 +7,54 @@ Main Colour palette:
 Blue-Grey #B6CDEF
 Steele-Grey #707E8B
 Light-Grey #BDCADA
-Orange-Brown #DB8F51
-Brown #8A716A
-Red #8D280D
+Bronze #A78648
+Tan #8D6A4B
+Red #420A09
+Rose #8E2C2C
+White #DAD8DB
+
 Typeface Rules:
-Dancing+Script|Kaushan+Script|Lato
-Primary typeface - Lato
+Heading typeface -
+Primary typeface - Arial
 Text no smaller than 13px except items such as disclaimers and footers
 All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
 
 /* Global CSS Styles */
-article, aside, div, section, footer, nav, a {
+header, div, footer, nav, a {
         display:block;
-        max-width:1024px;
 }
 html, body{
         margin: 0 auto;
 }
-html{
-        background-color:#707E8B;
-        position:relative;
-}
 header{
-  background-color:#FFED74;
+  background-color: #fffff;
+  color: #8E2C2C;
   text-align: center;
 }
-.wrapper{
-  background-color: #FFE2B8;
+#slogan{
+  background-color: #B6CDEF;
+  color:#8E2C2C;
 }
 body{
-  font-family: Lato, Arial;
-  color:707E8B;
-  max-width:1026px;
+  font-family: Arial;
+  color:#707E8B;
+  background-color:#fffff;
   height:800px;
 }
 nav{
-  background-color:#E8C66A;
-}
-#slogan{
-  background-color: #FFE2B8;
-  font-family: dancing+Script ;
-  font-weight: 800;
-  font-size: 3ems;
-  color:8D280D;
-  text-align: center;
+  background-color:#A88445;
+  color: #707E8B;
+
 }
 article{
   background-color:#E89C6C;
 }
 section{
-  background-color: #FFE2B8;
+  background-color: #BDCADA;
 }
 aside{
-	background-color:#FFC675;
+	background-color:#8D6A4B;
 }
 footer{
-  background-color: #FF957E;
+  background-color: #707E8B;
 }
