@@ -1,0 +1,99 @@
+@charset "utf-8";
+/*Logo Rules:
+Print - 30mm of total horizontal length
+Digital reproduction - 150px of total horizontal length
+
+Main Colour palette:
+Blue - #6594C2
+Green #0F394B
+Tan #BEA692
+Red #420A09
+Rose #7D0226
+White #F0F1F2
+Black #000000
+
+Typeface Rules:
+
+h1-6 
+font-family: 'Oswald', sans-serif; (bold 700)
+
+body
+font-family: 'Montserrat', sans-serif; (regular 400, regular 400 italic)
+
+Text no smaller than 13px except items such as disclaimers and footers
+All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
+
+/* Global CSS Styles */
+header, footer, a{
+  display:block;
+}
+html, body{
+  margin: 0 auto;
+  max-width: 1024px;
+  height:800px;
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700; 
+}
+div.logo{
+  background-color:#0F394B;
+  padding-top: 20px;
+}
+div.hero{
+  background-color:#BEA692;
+  color: #F0F1F2;
+  clear:both;
+}
+div.hero h1 {
+  padding-top: 30px;
+  line-height: .5px;
+}
+/* Other CSS Styles */
+nav{
+  background-color: #0F394B;
+  font-family: 'Montserrat', sans-serif;
+ }
+a{
+  background-color: #BEA692;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 10px; 
+}
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  content:"";
+  clear:both;
+  height: 0;
+  font-size: 0;
+}
+a:hover{
+  background-color: #0F394B;
+}
+section{
+  clear: both;
+  background-color: #F0F1F2;
+}
+img.bridge{
+  float: right;
+}
+img.goodbye{
+  text-align: centre;
+}
+footer{
+  background-color: #0F394B;
+}
+.left{
+  float:left;
+  width:50%;
+}
+.right{
+  float:right;
+  width:50%;
+}
+}
