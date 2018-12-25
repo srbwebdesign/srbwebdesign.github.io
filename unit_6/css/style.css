@@ -34,22 +34,38 @@ html, body{
   font-family: 'Montserrat', sans-serif;
 }
 header{
-  text-align: center;
   font-family: 'Oswald', sans-serif;
   font-weight: 700; 
 }
 div.logo{
   background-color:#0F394B;
-  padding-top: 20px;
+  padding-top:10px;
+  padding-top:5px;
+  text-align: left;
+  float: right;
+}
+div.slogan{
+  background-color:#0F394B;
+  color: #F0F1F2;
+  padding: 25px;
+  float: left;
+}
+.slogan h1{
+   font-size: 30px;
+   text-align:center;
+}
+.slogan h2{
+    font-size:20px;
+    text-align:center;
 }
 div.hero{
   background-color:#BEA692;
   color: #F0F1F2;
-  clear:both;
+  clear: both;
 }
 div.hero h1 {
-  padding-top: 30px;
-  line-height: .5px;
+  padding-top:30px;
+  line-height:.5px;
 }
 /* Other CSS Styles */
 nav{
@@ -78,11 +94,13 @@ a:hover{
 section{
   clear: both;
   background-color: #F0F1F2;
+  padding: 10px;
 }
 img.bridge{
   float: right;
 }
 img.goodbye{
+  clear: both;
   text-align: centre;
 }
 footer{
@@ -95,5 +113,4 @@ footer{
 .right{
   float:right;
   width:50%;
-}
 }
