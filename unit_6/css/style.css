@@ -37,35 +37,29 @@ header{
   font-family: 'Oswald', sans-serif;
   font-weight: 700; 
 }
-div.logo{
-  background-color:#0F394B;
-  padding-top:10px;
-  padding-top:5px;
-  text-align: left;
-  float: right;
-}
-div.slogan{
-  background-color:#0F394B;
+#slogan{
+  background-color:#0F394B; 
   color: #F0F1F2;
-  padding: 25px;
+  padding: 36px;
+  padding-right: 442px;
   float: left;
 }
-.slogan h1{
-   font-size: 30px;
-   text-align:center;
+#slogan h1{
+  font-size: 30px;
+  text-align:center;
 }
-.slogan h2{
-    font-size:20px;
-    text-align:center;
+#slogan h2{
+  font-size:20px;
+  text-align:center;
+}
+#logo{
+  background-color:#0F394B;
+  float: left;
 }
 div.hero{
   background-color:#BEA692;
   color: #F0F1F2;
-  clear: both;
-}
-div.hero h1 {
-  padding-top:30px;
-  line-height:.5px;
+  
 }
 /* Other CSS Styles */
 nav{
@@ -78,12 +72,12 @@ a{
   text-decoration: none;
   display: block;
   float: left;
-  padding: 10px; 
+  padding: 15px; 
 }
 .clearfix:after{
   visibility: hidden;
   display: block;
-  content:"";
+  content:" ";
   clear:both;
   height: 0;
   font-size: 0;
@@ -91,15 +85,24 @@ a{
 a:hover{
   background-color: #0F394B;
 }
-section{
+main {
   clear: both;
-  background-color: #F0F1F2;
   padding: 10px;
 }
+#column_1 {
+  background-color: #F0F1F2;
+  float: left;
+  width:650px;
+}
+#column_2 {
+  float: left;
+  text-align: center;
+}
 img.bridge{
+  padding-top: 
   float: right;
 }
-img.goodbye{
+#horizontal_space{
   clear: both;
   text-align: centre;
 }
