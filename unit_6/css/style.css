@@ -5,7 +5,7 @@ Digital reproduction - 150px of total horizontal length
 
 Main Colour palette:
 Blue - #6594C2
-Green #0F394B
+Teal #0F394B
 Tan #BEA692
 Red #420A09
 Rose #7D0226
@@ -37,31 +37,20 @@ header{
   font-family: 'Oswald', sans-serif;
   font-weight: 700; 
 }
-#slogan{
-  background-color:#0F394B; 
-  color: #F0F1F2;
-  padding: 36px;
-  padding-right: 442px;
-  float: left;
-}
-#slogan h1{
-  font-size: 30px;
-  text-align:center;
-}
-#slogan h2{
-  font-size:20px;
-  text-align:center;
-}
-#logo{
-  background-color:#0F394B;
-  float: left;
-}
-div.hero{
-  background-color:#BEA692;
-  color: #F0F1F2;
-  
-}
 /* Other CSS Styles */
+div.slogan_and_logo{
+  color: white;
+  background-color: #0F394B; 
+  float: left;
+}
+img.slogan_and_logo{
+height:200px;
+width:200px;
+background-image:"image/sspt_logo_square_sml.jpg";
+border-radius:50%;
+display:inline-block;
+float:right;
+} 
 nav{
   background-color: #0F394B;
   font-family: 'Montserrat', sans-serif;
@@ -85,26 +74,22 @@ a{
 a:hover{
   background-color: #0F394B;
 }
-main {
+section {
   clear: both;
   padding: 10px;
 }
-#column_1 {
+#left {
   background-color: #F0F1F2;
   float: left;
   width:650px;
 }
-#column_2 {
+#right {
   float: left;
   text-align: center;
 }
 img.bridge{
   padding-top: 
   float: right;
-}
-#horizontal_space{
-  clear: both;
-  text-align: centre;
 }
 footer{
   background-color: #0F394B;
