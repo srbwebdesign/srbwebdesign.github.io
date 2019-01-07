@@ -101,41 +101,68 @@ a{
 a:hover{
   background-color: #0F394B;
 }
-section {
-  clear: both;
-  padding: 10px;
+section.clearfix {
+  background-color: #BEA692;
 }
-#left {
+#main {
   background-color: #F0F1F2;
-  float: left;
-  width:650px;
+  border: 1px black solid;
+  padding: 20px;
+  float:left;
+  width:58%;
 }
-#right {
-  float: left;
+#gallery {
+  background-color:#0F394B;
+  border: 1px black solid;
+  padding: 20px;
+  float:right;
+  width:38%;
+}
+.button{
   text-align: center;
 }
-img.bridge{
-  margin: 5px;
-  margin: 0 auto;
+.bridge{
+  width:75%;
+  text-align: center;
 }
-.footer_wrapper{
-  max-width: 1024px;
+.bondi{
+  width:95%;
+  text-align: center;
+}
+.wooloomooloo_dining{
+  width:95%;
+  text-align: center;
+}
+.darling_harbour{
+  width:95%;
+  text-align: center;
+}
+.kuringai {
+  width:95%;
+  text-align: center;
+}
+.narrabeen_lakes
+{
+  width:95%;
+  text-align: center;
+}
+.manly_beachfront{
+  width:90%;
+  text-align: center;
+}
+footer.clearfix{
   background-color: #0F394B;
-  color: #BEA692;
+  padding:20px;
 }
-.clearfix:after{
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear:both;
-  height: 0;
+div#left{
+  background-color:#BEA692;
+  border: 1px black solid;
+  padding: 20px;
+  float: left;
 }
-.main_footer{
-  float:left;
-  width:600px;
-}
-.aside_footer{
-  float:right;
-  width:424px;
+div#right{
+  background-color:#6594C2;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
 }
