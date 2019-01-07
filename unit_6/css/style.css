@@ -106,20 +106,18 @@ section.clearfix {
 }
 #main {
   background-color: #F0F1F2;
-  border: 1px black solid;
   padding: 20px;
   float:left;
-  width:58%;
+  width:56%;
 }
 #gallery {
-  background-color:#0F394B;
-  border: 1px black solid;
+  background-color:#BEA692B;
   padding: 20px;
   float:right;
-  width:38%;
+  width:35%;
 }
 .button{
-  text-align: center;
+  float:right;
 }
 .bridge{
   width:75%;
