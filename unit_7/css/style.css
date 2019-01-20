@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*Logo Rules:
-Print - 30mm of total horizontal length
-Digital reproduction - 150px of total horizontal length
+Print - 
+Digital reproduction - 200px of total horizontal length
 
 Main Colour palette:
 Blue - #6594C2
@@ -10,7 +10,8 @@ Tan #BEA692
 Red #420A09
 Rose #7D0226
 White #F0F1F2
-Black #000000
+Grey #64727b
+Navy #082538
 
 Typeface Rules:
 
@@ -23,5 +24,28 @@ font-family: 'Montserrat', sans-serif; (regular 400, regular 400 italic)
 Text no smaller than 13px except items such as disclaimers and footers
 All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
 
+/*global*/
+header{
+  /*display: block;*/
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  background-color: #0F394B;
+  margin: 0 auto;
+}
+html, body{
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 1800px;
+  font-family: 'Montserrat', sans-serif;
+}
+img.logo{
+  height: 200px;
+  width: 200px;
+  /*background-image:"image/sspt_logo_lge.gif";
+  border-radius:50%;
+  padding: 20px;
+  display:block;
+  float: left;*/
+}
 /*mobile*/
 
