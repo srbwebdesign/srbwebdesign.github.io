@@ -30,20 +30,21 @@ header, footer, a{
 html, body{
   margin: 0 auto;
   max-width: 1200px;
-  height:800px;
+  height:1800px;
   font-family: 'Montserrat', sans-serif;
 }
 header{
+  width:1200px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   margin: 0 auto;
-  background
+ 
 }
 /* Other CSS Styles */
 div.slogan_and_logo{
   color: white;
   background-color: #0F394B; 
-  float:left;
+  float:right;
 }
 img.slogan_and_logo{
   height:200px;
@@ -57,12 +58,10 @@ img.slogan_and_logo{
 h1.slogan_and_logo{
   font-size: 2.0em;
   padding-top: 60px;
-  padding-left: 400px;
-  padding-right: 255px;
 }
 h2.slogan_and_logo{
   color: #BEA692;
-  font-size: 1.5em;
+  font-size: 50px;
   padding-left: 400px;
   padding-right: 200px;
 }
