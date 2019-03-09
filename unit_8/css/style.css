@@ -30,16 +30,15 @@ header, footer, a{
 }
 html, body{
   margin: 0 auto;
-  max-width: 1280px;
-  font-size: 16px;
+  width: 1280px;
+  font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   background-color:#ffffff;
   color: #142643; 
 }
 header{
-  width:100%;
-  margin: 0 auto;
   background-color:#142643;
+  width: 100%;
 }
 header h1 {
   color: #82a5c4; 
@@ -93,35 +92,32 @@ nav a:hover{
   height: 0;
   font-size: 0;
 }
-section.clearfix{
+section#main{
   width:100%;
   background-color: #ffffff;
   color:#142643;
-  text-align: justify;
-  padding-left: .625em;
-  padding-top: .93em;
-  padding-bottom: .93em;
 }
 h1{
   color:#bea692;
   font-size: 1.875em;
   text-align: center;
 }
-div.left_col{
-  width:49%;
+.left_col{
+  width:49.5%;
   text-align: left;
-  padding-right: .5%;
+  padding-right: .5em;
   float:left;
 }
-div.right_col{
-  width:49%;
+.right_col{
+  width:49.5%;
   text-align: left;
-  padding-left: .5%;
+  padding-left: .5em;
+  padding-right: .5em;
   float:left;
 }
-.tour_gallery{
+section.tour_gallery{
   width:100%;
-  padding-left:1.4em;
+  padding-left: .5em;
   background-color:#0f394b;
 }
 div.ssbb {
@@ -137,13 +133,13 @@ div.ssct {
   padding-bottom:1.25em;
 }
 div.nbnp {
-  float:right;
+  float:left;
   width:33.3%;
   padding-top: 1.25em;
   padding-bottom:1.25em;
 }
 footer.clearfix{
-  width:100%;
+  width:99%;
   background-color: #0F394B;
   color: #bea692;
   padding-top: 1.25em;
@@ -167,4 +163,10 @@ footer a{
 }
 footer a:hover{
   color: #420a09;
+}
+@media only screen and (max-width:1204){
+
+}
+@media only screen and (min-width: max-width:){
+  
 }
