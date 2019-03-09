@@ -5,7 +5,7 @@ Print - 30mm of total horizontal length
 Digital reproduction - 150px of total horizontal length
 
 Main Colour palette:
-Blue - #6594C2
+Blue #6594C2
 Teal #0F394B
 Tan #BEA692
 Red #420A09
@@ -30,65 +30,60 @@ header, footer, a{
 }
 html, body{
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1280px;
+  font-size: 16px;
   font-family: 'Montserrat', sans-serif;
+  background-color:#ffffff;
+  color: #142643; 
 }
 header{
-  width:100%^;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
+  width:100%;
   margin: 0 auto;
- 
+  background-color:#142643;
 }
-/* Other CSS Styles */
-div.slogan_and_logo{
-  color: white;
-  background-color: #0F394B; 
-  float:right;
-}
-img.slogan_and_logo{
-  height:200px;
-  width:200px;
-  background-image:"image/sspt_logo_square_sml.jpg";
-  border-radius:50%;
-  padding: 20px;
-  display:block;
-  float: left;
-}
-h1.slogan_and_logo{
-  font-size: 2.0em;
-  padding-top: 60px;
-}
-h2.slogan_and_logo{
-  color: #BEA692;
-  font-size: 50px;
-  padding-left: 400px;
-  padding-right: 200px;
-}
-.tour_button {
-  background-color: #420A09;
-  border: none;
-  color: white;
-  padding: 15px 32px;
+header h1 {
+  color: #82a5c4; 
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+  font-size: 4.37em;
+  padding-top: 1.87em;
 }
-
+header h2{
+  color: #bea692;
+  text-align: center;
+  font-size: 2.5em;
+}
+/* Other CSS Styles */ 
+div.slogan{
+  width:33.33%;
+  float: left;
+  text-align: center;
+  padding-top: 6.25em;
+}
+div.logo{
+  width:33.33%;
+  float: left;
+  text-align: center;
+}
+div.number{
+  width:33.33%;
+  float: left;
+  text-align: center;
+  padding-top: 6.25em;
+}
 nav{
   background-color: #0F394B;
   font-family: 'Montserrat', sans-serif;
  }
-a{
+nav a{
   background-color: #420A09;
-  color: white;
+  color: #bea692;
   text-decoration: none;
   display: block;
   float: left;
-  padding: 15px; 
+  padding: .94em; 
+}
+nav a:hover{
+  background-color: #0F394B;
 }
 .clearfix:after{
   visibility: hidden;
@@ -98,32 +93,78 @@ a{
   height: 0;
   font-size: 0;
 }
-a:hover{
-  background-color: #0F394B;
+section.clearfix{
+  width:100%;
+  background-color: #ffffff;
+  color:#142643;
+  text-align: justify;
+  padding-left: .625em;
+  padding-top: .93em;
+  padding-bottom: .93em;
 }
-#main {
-  background-color: #BEA692;
-  padding: 20px;
+h1{
+  color:#bea692;
+  font-size: 1.875em;
+  text-align: center;
+}
+div.left_col{
+  width:49%;
+  text-align: left;
+  padding-right: .5%;
   float:left;
-  width:56%;
+}
+div.right_col{
+  width:49%;
+  text-align: left;
+  padding-left: .5%;
+  float:left;
+}
+.tour_gallery{
+  width:100%;
+  padding-left:1.4em;
+  background-color:#0f394b;
+}
+div.ssbb {
+  float:left;
+  width:33.3%;
+  padding-top: 1.25em;
+  padding-bottom:1.25em;
+}
+div.ssct {
+  float:left;
+  width:33.3%;
+  padding-top: 1.25em;
+  padding-bottom:1.25em;
+}
+div.nbnp {
+  float:right;
+  width:33.3%;
+  padding-top: 1.25em;
+  padding-bottom:1.25em;
 }
 footer.clearfix{
+  width:100%;
   background-color: #0F394B;
-  padding:20px;
+  color: #bea692;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-left: 1.25em;
 }
-footer div#left{
-  background-color:#BEA692;
-  border: 1px black solid;
-  padding: 20px;
+footer section#left{
+  width:33.3%;
   float: left;
 }
-.no_button a {
-  background-color: none;
-  color: #420A09;
+footer section#middle{
+  width:33.3%;
+  float: left;
 }
-footer div#right{
-  background-color:#6594C2;
-  border: 1px black solid;
-  padding: 20px;
-  float: right;
+footer section#right{
+  width:33.3%;
+  float: left;
+}
+footer a{
+  color: #82a5c4;
+}
+footer a:hover{
+  color: #420a09;
 }
