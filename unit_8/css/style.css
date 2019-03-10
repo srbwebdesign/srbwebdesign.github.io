@@ -115,48 +115,60 @@ h1{
   padding-right: .5em;
   float:left;
 }
-section.tour_gallery{
+section#tour_gallery{
   width:100%;
   padding-left: .5em;
+  height:31.25em;
   background-color:#0f394b;
 }
 div.ssbb {
-  float:left;
+  /**background-image: "image/bondi_pools_lge.jpg";**/
   width:33.3%;
+  float:left;
   padding-top: 1.25em;
-  padding-bottom:1.25em;
+  padding-bottom:1.25em; 
 }
 div.ssct {
+ /**  background-image: "image/harbour_bridge_sth_pylon_lge.jpg";**/
   float:left;
   width:33.3%;
   padding-top: 1.25em;
   padding-bottom:1.25em;
+  
 }
 div.nbnp {
+  /** background-image: "image/kuringai_national_park_lge.jpg";**/
   float:left;
-  width:33.3%;
+  width: 33.3%;
   padding-top: 1.25em;
   padding-bottom:1.25em;
+  }
+a#button-booking{
+  margin-top: .94em;
+  margin-left: 7.5em;
+}
 }
 footer.clearfix{
   width:99%;
-  background-color: #0F394B;
-  color: #bea692;
-  padding-top: 1.25em;
+  background-color: #ffffff;
+  color: #Bea692;
   padding-bottom: 1.25em;
   padding-left: 1.25em;
 }
-footer section#left{
+div.left{
   width:33.3%;
   float: left;
+  padding-top: 2em;
 }
-footer section#middle{
+div.middle{
   width:33.3%;
   float: left;
+  padding-top: 2em;
 }
-footer section#right{
+div.right{
   width:33.3%;
   float: left;
+  padding-top: 2em;
 }
 footer a{
   color: #82a5c4;
