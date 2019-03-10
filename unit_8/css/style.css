@@ -100,20 +100,29 @@ section#main{
 h1{
   color:#bea692;
   font-size: 1.875em;
-  text-align: center;
+  text-align: left;
+  padding-top:1.25em;
+  padding-bottom:1em;
 }
 .left_col{
-  width:49.5%;
+  width:48%;
   text-align: left;
   padding-right: .5em;
   float:left;
 }
 .right_col{
-  width:49.5%;
+  width:48%;
   text-align: left;
   padding-left: .5em;
   padding-right: .5em;
   float:left;
+}
+h2{
+  color:#82a5c4;
+  font-size: 1.25em;
+  text-align: center;
+  padding-top:1em;
+  padding-bottom:1em;
 }
 section#tour_gallery{
   width:100%;
