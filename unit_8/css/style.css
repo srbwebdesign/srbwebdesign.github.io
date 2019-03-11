@@ -185,9 +185,52 @@ footer a{
 footer a:hover{
   color: #420a09;
 }
-@media only screen and (max-width:1204){
-
+@media only screen and (max-width:768px){
+  body{
+    font-size: 14px;
+  }
+  div.left_col, div.left_col{
+      float:none;
+      width:auto;
+  }
+  /**div.ssbb, div.ssct, div.nbnp{
+    float:none;
+    width:auto;
+  }
+  h1, h2{
+    text-align: center;
+  }
+  nav a{
+    display: block;
+    text-align: center;
+    margin:0;
+  }**/
 }
-@media only screen and (min-width: max-width:){
-  
+@media only screen and (max-width: 480px){
+  div.left_col, div.left_col{
+      float:none;
+      width:auto;
+  }
+  div.ssbb, div.ssct, div.nbnp{
+    float:none;
+    width:auto;
+  }
+  h1, h2{
+    text-align: center;
+  }
+  nav a{
+    display: block;
+    text-align: center;
+    margin:0;
+  }
+  footer div.left, footer div.middle, footer div.right{
+    float:none;
+    width:auto;
+    text-align: center;
+  }
+  footer a, footer span {
+    display: block;
+    text-align: center;
+    margin:0;
+  }
 }
