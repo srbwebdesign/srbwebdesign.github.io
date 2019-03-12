@@ -30,7 +30,7 @@ header, footer, a{
 }
 html, body{
   margin: 0 auto;
-  width: 1280px;
+  max-width: 1280px;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   background-color:#ffffff;
@@ -52,18 +52,18 @@ header h2{
   font-size: 2.5em;
 }
 /* Other CSS Styles */ 
-div.slogan{
+.slogan{
   width:33.33%;
   float: left;
   text-align: center;
   padding-top: 5em;
 }
-div.logo{
+.logo{
   width:33.33%;
   float: left;
   text-align: center;
 }
-div.number{
+.number{
   width:33.33%;
   float: left;
   text-align: center;
@@ -92,29 +92,29 @@ nav a:hover{
   height: 0;
   font-size: 0;
 }
-section#main{
+#main{
   width:100%;
+  margin: 0 auto;
   background-color: #ffffff;
   color:#142643;
 }
 h1{
   color:#bea692;
-  font-size: 1.875em;
-  text-align: left;
-  padding-top:1.25em;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top:1em;
   padding-bottom:1em;
 }
 .left_col{
   width:48%;
-  text-align: left;
-  padding-right: .5em;
+  margin: 0 auto;
+  padding: .5em;
   float:left;
 }
 .right_col{
   width:48%;
-  text-align: left;
-  padding-left: .5em;
-  padding-right: .5em;
+  margin: 0 auto;
+  padding: .5em;
   float:left;
 }
 h2{
@@ -124,33 +124,26 @@ h2{
   padding-top:1em;
   padding-bottom:1em;
 }
-section#tour_gallery{
-  width:100%;
-  padding-left: .5em;
-  height:31.25em;
+#tour_gallery{
+  max-width:1280px;
+  margin: 0 auto;
   background-color:#0f394b;
 }
-div.ssbb {
-  /**background-image: "image/bondi_pools_lge.jpg";**/
-  width:33.3%;
+.ssbb {
+  width:33.33%;
   float:left;
-  padding-top: 1.25em;
-  padding-bottom:1.25em; 
+  margin: 0 auto;
 }
-div.ssct {
- /**  background-image: "image/harbour_bridge_sth_pylon_lge.jpg";**/
+.ssct {
   float:left;
-  width:33.3%;
-  padding-top: 1.25em;
-  padding-bottom:1.25em;
+  width:33.33%;
+  margin: 0 auto;
   
 }
-div.nbnp {
-  /** background-image: "image/kuringai_national_park_lge.jpg";**/
+.nbnp {
   float:left;
-  width: 33.3%;
-  padding-top: 1.25em;
-  padding-bottom:1.25em;
+  width: 33.33%;
+  margin: 0 auto;
   }
 a#button-booking{
   margin-top: .94em;
@@ -158,26 +151,26 @@ a#button-booking{
 }
 }
 footer.clearfix{
-  width:99%;
+  width:100%;
   background-color: #ffffff;
   color: #Bea692;
-  padding-bottom: 1.25em;
-  padding-left: 1.25em;
+  margin: 0 auto;
 }
-div.left{
-  width:33.3%;
+.left
+{
+  width:33.33%;
   float: left;
-  padding-top: 2em;
+  margin: 0 auto;
 }
-div.middle{
-  width:33.3%;
+.middle{
+  width:33.33%;
   float: left;
-  padding-top: 2em;
+  margin: 0 auto;
 }
-div.right{
-  width:33.3%;
+.right{
+  width:33.33%;
   float: left;
-  padding-top: 2em;
+  margin: 0 auto;
 }
 footer a{
   color: #82a5c4;
@@ -189,11 +182,7 @@ footer a:hover{
   body{
     font-size: 14px;
   }
-  div.left_col, div.left_col{
-      float:none;
-      width:auto;
-  }
-  /**div.ssbb, div.ssct, div.nbnp{
+  /**.ssbb, .ssct, .nbnp{
     float:none;
     width:auto;
   }
@@ -211,7 +200,7 @@ footer a:hover{
       float:none;
       width:auto;
   }
-  div.ssbb, div.ssct, div.nbnp{
+  .ssbb, .ssct, .nbnp{
     float:none;
     width:auto;
   }
@@ -223,7 +212,7 @@ footer a:hover{
     text-align: center;
     margin:0;
   }
-  footer div.left, footer div.middle, footer div.right{
+  footer .left, .middle, .right{
     float:none;
     width:auto;
     text-align: center;
