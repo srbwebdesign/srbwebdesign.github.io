@@ -5,12 +5,13 @@ Print - 30mm of total horizontal length
 Digital reproduction - 150px of total horizontal length
 
 Main Colour palette:
-Blue #6594C2
-Teal #0F394B
+Navy 0Blue #142643
+Light Blue #82a5c4
+Teal #0F394B rgb(15, 57, 75)
 Tan #BEA692
 Red #420A09
 Rose #7D0226
-White #F0F1F2
+White #FFFFFF
 Black #000000
 
 Typeface Rules:
@@ -129,48 +130,30 @@ h2{
   margin: 0 auto;
   background-color:#0f394b;
 }
-.ssbb {
+.tour {
   width:33.33%;
   float:left;
   margin: 0 auto;
 }
-.ssct {
-  float:left;
-  width:33.33%;
-  margin: 0 auto;
-  
+.tour img {
+  padding:.03%;
 }
-.nbnp {
-  float:left;
-  width: 33.33%;
-  margin: 0 auto;
-  }
 a#button-booking{
   margin-top: .94em;
   margin-left: 7.5em;
 }
 }
-footer.clearfix{
+footer{
   width:100%;
   background-color: #ffffff;
   color: #Bea692;
   margin: 0 auto;
 }
-.left
+.footer_col
 {
   width:33.33%;
   float: left;
-  margin: 0 auto;
-}
-.middle{
-  width:33.33%;
-  float: left;
-  margin: 0 auto;
-}
-.right{
-  width:33.33%;
-  float: left;
-  margin: 0 auto;
+  text-align: center;
 }
 footer a{
   color: #82a5c4;
@@ -195,7 +178,7 @@ footer a:hover{
     margin:0;
   }**/
 }
-@media only screen and (max-width: 480px){
+/**@media only screen and (max-width: 480px){
   div.left_col, div.left_col{
       float:none;
       width:auto;
@@ -212,14 +195,13 @@ footer a:hover{
     text-align: center;
     margin:0;
   }
-  footer .left, .middle, .right{
+ .footer_col {
     float:none;
     width:auto;
     text-align: center;
   }
-  footer a, footer span {
+  span {
     display: block;
     text-align: center;
-    margin:0;
   }
-}
+}**/
