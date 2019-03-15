@@ -5,11 +5,11 @@ Print - 30mm of total horizontal length
 Digital reproduction - 150px of total horizontal length
 
 Main Colour palette:
-Navy 0Blue #142643
+Navy Blue #142643
 Light Blue #82a5c4
 Teal #0F394B rgb(15, 57, 75)
 Tan #BEA692
-Red #420A09
+Red #420A09 rgb(66, 10, 9)
 Rose #7D0226
 White #FFFFFF
 Black #000000
@@ -41,34 +41,36 @@ header{
   background-color:#142643;
   width: 100%;
 }
-header h1 {
+h1 {
   color: #82a5c4; 
   text-align: center;
-  font-size: 4.37em;
-  padding-top: 1.87em;
+  font-size: 2.75em;
+  padding-top: 1.0em;
 }
-header h2{
+h2{
   color: #bea692;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.0em;
 }
-/* Other CSS Styles */ 
-.slogan{
-  width:33.33%;
-  float: left;
+h3{
+  color: #bea692;
   text-align: center;
-  padding-top: 5em;
+  font-size: 1.5em;
 }
 .logo{
   width:33.33%;
   float: left;
   text-align: center;
 }
-.number{
+.slogan{
   width:33.33%;
   float: left;
   text-align: center;
-  padding-top: 5em;
+}
+.partners{
+  width:33.33%;
+  float: left;
+  text-align: center;
 }
 nav{
   background-color: #0F394B;
@@ -99,13 +101,11 @@ nav a:hover{
   background-color: #ffffff;
   color:#142643;
 }
-h1{
-  color:#bea692;
-  font-size: 2.5em;
-  text-align: center;
-  padding-top:1em;
-  padding-bottom:1em;
+#main h2 {
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
 }
+/* Other CSS Styles 
 .left_col{
   width:48%;
   margin: 0 auto;
@@ -118,16 +118,9 @@ h1{
   padding: .5em;
   float:left;
 }
-h2{
-  color:#82a5c4;
-  font-size: 1.25em;
-  text-align: center;
-  padding-top:1em;
-  padding-bottom:1em;
-}
+*/ 
 #tour_gallery{
-  max-width:1280px;
-  margin: 0 auto;
+  width:100%;
   background-color:#0f394b;
 }
 .tour {
@@ -137,22 +130,29 @@ h2{
 }
 .tour img {
   padding:.03%;
+  border-radius: 50%;
 }
 a#button-booking{
   margin-top: .94em;
   margin-left: 7.5em;
+  padding-bottom: 1.0%;
 }
-}
-footer{
+footer.clearfix{
   width:100%;
-  background-color: #ffffff;
-  color: #Bea692;
-  margin: 0 auto;
+  color: #142643;
+  font-size: .75em;
+  padding-top: 2.0em;
 }
 .footer_col
 {
   width:33.33%;
   float: left;
+  text-align: center;
+  padding-bottom: 1.0%;
+}
+span{
+  display: block;
+  float:left;
   text-align: center;
 }
 footer a{
@@ -165,43 +165,4 @@ footer a:hover{
   body{
     font-size: 14px;
   }
-  /**.ssbb, .ssct, .nbnp{
-    float:none;
-    width:auto;
-  }
-  h1, h2{
-    text-align: center;
-  }
-  nav a{
-    display: block;
-    text-align: center;
-    margin:0;
-  }**/
-}
-/**@media only screen and (max-width: 480px){
-  div.left_col, div.left_col{
-      float:none;
-      width:auto;
-  }
-  .ssbb, .ssct, .nbnp{
-    float:none;
-    width:auto;
-  }
-  h1, h2{
-    text-align: center;
-  }
-  nav a{
-    display: block;
-    text-align: center;
-    margin:0;
-  }
- .footer_col {
-    float:none;
-    width:auto;
-    text-align: center;
-  }
-  span {
-    display: block;
-    text-align: center;
-  }
-}**/
+  
