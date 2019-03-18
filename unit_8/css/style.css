@@ -37,13 +37,18 @@ html, body{
   background-color:#ffffff;
   color: #142643; 
 }
+.hd_banner, .tour_gallery, #footer{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header, section, footer{
+  width:100%;
+}
 header{
-  width: 100%;
   padding-top: 1.5%;
+  background-color: #142643;
 }
-#background-color{
-  background-color:#142643;
-}
+
 h1 {
   color: #82a5c4; 
   text-align: center;
@@ -75,6 +80,9 @@ h3{
   float: left;
   text-align: center;
 }
+.hero{
+  text-align: center;
+}
 nav{
   background-color: #0F394B;
   font-family: 'Montserrat', sans-serif;
@@ -102,8 +110,6 @@ nav a:hover{
   text-align: center;
 }
 #main{
-  max-width: 1280px;
-  margin: 0 auto;
   background-color: #ffffff;
   color:#142643;
 }
@@ -125,16 +131,12 @@ nav a:hover{
   float:left;
 }
 */ 
-#main{
-  width:100%;
-  background-color:#FFFFFF;
-  margin: 0 auto;
 }
 .tour {
   width:33.33%;
   float:left;
   text-align: center;
-  padding-bottom: 2.0em;
+  padding-bottom: .5em;
 }
 .tour img {
   padding:.03em;
@@ -144,27 +146,26 @@ nav a:hover{
 a#button-booking{
   margin-top: .94em;
   margin-left: 7.5em;
-  padding-bottom: 1em;
 }
+
 footer{
+  padding-top: 1.75em;
+  padding-bottom: 1.5em;
   background-color:#0F394B;
   color: #FFFFFF;
-  width:100%;
-  font-size: .75em;
-  margin-left: 1em;
 }
+
 .footer_col
 {
   width:33.33%;
   float: left;
   text-align: left; 
-  margin-left: 1.25em 
 }
 span
 {
   display: block;
   float:left;
-  padding-bottom: 1.5em;
+  text-align: center;
 }
 footer a{
   color: #82a5c4;
