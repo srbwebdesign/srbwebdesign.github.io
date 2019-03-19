@@ -106,32 +106,27 @@ nav a:hover{
   height: 0;
   font-size: 0;
 }
-.hero{
-  text-align: center;
-}
+
 #main{
+  width: 100%
   background-color: #ffffff;
   color:#142643;
 }
-#main h2 {
+#main h2, h3{
+  text-align: center;
   padding-top: 1.0em;
   padding-bottom: 1.0em;
 }
-/* Other CSS Styles 
-.left_col{
-  width:48%;
+.main_col{
+  max-width: 1280px;
   margin: 0 auto;
+}
+.main_col_1, .main_col_2{
+  width:50%;
+  text-align: left;
   padding: .5em;
   float:left;
-}
-.right_col{
-  width:48%;
-  margin: 0 auto;
-  padding: .5em;
-  float:left;
-}
-*/ 
-}
+} 
 .tour {
   width:33.33%;
   float:left;
@@ -154,11 +149,20 @@ footer{
   background-color:#0F394B;
   color: #FFFFFF;
 }
+footer a{
+  color: #82a5c4;
+}
+footer a:hover{
+  color: #420a09;
+}
 
 .footer_col
 {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.footer_col_1, .footer_col_2, .footer_col_3{
   width:33.33%;
-  float: left;
   text-align: left; 
 }
 span
@@ -167,12 +171,7 @@ span
   float:left;
   text-align: center;
 }
-footer a{
-  color: #82a5c4;
-}
-footer a:hover{
-  color: #420a09;
-}
+
 @media only screen and (max-width:768px){
   body{
     font-size: 14px;
