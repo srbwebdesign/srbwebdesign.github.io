@@ -22,9 +22,9 @@ font-family: 'Oswald', sans-serif; (bold 700)
 body
 font-family: 'Montserrat', sans-serif; (regular 400, regular 400 italic)
 
-Text no smaller than 13px except items such as disclaimers and footers
+Text no smaller than 16px except items such as disclaimers and footers
 All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
-
+* { margin:0; padding:0; box-sizing:border-box;  }
 /* Global CSS Styles */
 header, footer, a{
   display:block;
@@ -81,6 +81,7 @@ h3{
   text-align: center;
 }
 .hero{
+  min-width-width: "400px";
   text-align: center;
 }
 nav{
@@ -112,35 +113,42 @@ nav a:hover{
   background-color: #ffffff;
   color:#142643;
 }
-#main h2, h3{
+#main h2{
   text-align: center;
   padding-top: 1.0em;
   padding-bottom: 1.0em;
+}
+#main h3{
+  text-align: center;
 }
 .main_col{
   max-width: 1280px;
   margin: 0 auto;
 }
 .main_col_1, .main_col_2{
-  width:50%;
+  width:49%;
   text-align: left;
   padding: .5em;
   float:left;
 } 
 .tour {
   width:33.33%;
+  min-width: 400px;
   float:left;
   text-align: center;
   padding-bottom: .5em;
 }
 .tour img {
-  padding:.03em;
+  padding:.5em;
   border-radius: 50%;
+}
+#button-booking{
+  text-align: center;
 }
 
 a#button-booking{
-  margin-top: .94em;
-  margin-left: 7.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 footer{
@@ -164,6 +172,7 @@ footer a:hover{
 .footer_col_1, .footer_col_2, .footer_col_3{
   width:33.33%;
   text-align: left; 
+  float:left;
 }
 span
 {
