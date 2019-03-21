@@ -136,19 +136,15 @@ nav a:hover{
   min-width: 400px;
   float:left;
   text-align: center;
-  padding-bottom: .5em;
+  padding-bottom:.5em;
 }
 .tour img {
-  padding:.5em;
   border-radius: 50%;
 }
 #button-booking{
-  text-align: center;
-}
-
-a#button-booking{
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  text-align: center;
 }
 
 footer{
