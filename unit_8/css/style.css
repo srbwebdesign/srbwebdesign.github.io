@@ -131,6 +131,10 @@ nav a:hover{
   padding: .5em;
   float:left;
 } 
+.button-booking rezdy rezdy-modal{
+  display: block;
+  text-align: center;
+}
 .tour {
   width:33.33%;
   min-width: 400px;
@@ -141,12 +145,6 @@ nav a:hover{
 .tour img {
   border-radius: 50%;
 }
-#button-booking{
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  text-align: center;
-}
-
 footer{
   padding-top: 1.75em;
   padding-bottom: 1.5em;
