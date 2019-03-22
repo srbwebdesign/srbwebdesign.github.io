@@ -26,7 +26,7 @@ Text no smaller than 16px except items such as disclaimers and footers
 All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
 * { margin:0; padding:0; box-sizing:border-box;  }
 /* Global CSS Styles */
-header, footer, a{
+a{
   display:block;
 }
 html, body{
@@ -37,13 +37,16 @@ html, body{
   background-color:#ffffff;
   color: #142643; 
 }
-.hd_banner, .tour_gallery, #footer{
+#tour_gallery, #footer, .footer_col{
   max-width: 1280px;
   margin: 0 auto;
 }
 header, section, footer{
   width:100%;
 }
+.slogan, .logo, .partners{
+  background-color: #142643;
+} 
 header{
   padding-top: 1.5%;
   background-color: #142643;
@@ -69,19 +72,18 @@ h3{
   width:33.33%;
   float: left;
   text-align: center;
+  padding-bottom: 2.85em
 }
 .slogan{
   width:33.33%;
   float: left;
   text-align: center;
+  padding-top: 1.0em;
+  padding-bottom: 3.85em;
 }
 .partners{
   width:33.33%;
   float: left;
-  text-align: center;
-}
-.hero{
-  min-width-width: "400px";
   text-align: center;
 }
 nav{
@@ -107,11 +109,16 @@ nav a:hover{
   height: 0;
   font-size: 0;
 }
+.hero{
+  min-width-width: "400px";
+  text-align: center;
+}
 
 #main{
   width: 100%
   background-color: #ffffff;
   color:#142643;
+  margin-bottom: 2em;
 }
 #main h2{
   text-align: center;
@@ -126,24 +133,23 @@ nav a:hover{
   margin: 0 auto;
 }
 .main_col_1, .main_col_2{
-  width:49%;
+  width:48%;
   text-align: left;
   padding: .5em;
   float:left;
 } 
-.button-booking rezdy rezdy-modal{
-  display: block;
-  text-align: center;
-}
 .tour {
   width:33.33%;
   min-width: 400px;
   float:left;
   text-align: center;
-  padding-bottom:.5em;
+  padding-bottom:1em;
 }
 .tour img {
   border-radius: 50%;
+}
+#button-booking{
+margin:1.75em 7.5em;
 }
 footer{
   padding-top: 1.75em;
@@ -156,12 +162,6 @@ footer a{
 }
 footer a:hover{
   color: #420a09;
-}
-
-.footer_col
-{
-  max-width: 1280px;
-  margin: 0 auto;
 }
 .footer_col_1, .footer_col_2, .footer_col_3{
   width:33.33%;
