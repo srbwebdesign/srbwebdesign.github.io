@@ -24,7 +24,7 @@ font-family: 'Montserrat', sans-serif; (regular 400, regular 400 italic)
 
 Text no smaller than 16px except items such as disclaimers and footers
 All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
-* { margin:0; padding:0; box-sizing:border-box;  }
+* { margin:0; padding:0; box-sizing:border-box; }
 /* Global CSS Styles */
 a{
   display:block;
@@ -37,7 +37,7 @@ html, body{
   background-color:#ffffff;
   color: #142643; 
 }
-#tour_gallery, #footer, .footer_col{
+#tour_gallery, #footer, .footer_col, .slogan, .logo, .partners{
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -51,7 +51,6 @@ header{
   padding-top: 1.5%;
   background-color: #142643;
 }
-
 h1 {
   color: #82a5c4; 
   text-align: center;
@@ -110,7 +109,7 @@ nav a:hover{
   font-size: 0;
 }
 .hero{
-  min-width-width: "400px";
+  min-width: "400px";
   text-align: center;
 }
 
@@ -120,20 +119,22 @@ nav a:hover{
   color:#142643;
   margin-bottom: 2em;
 }
-#main h2{
+#main h2 h3{
+  display: block;
   text-align: center;
   padding-top: 1.0em;
   padding-bottom: 1.0em;
 }
 #main h3{
-  text-align: center;
+  color: #82a5c4;
 }
-.main_col{
+#main_col{
   max-width: 1280px;
   margin: 0 auto;
+  padding-bottom: 2em;
 }
-.main_col_1, .main_col_2{
-  width:48%;
+.main_col_1, .main_col_2, .main_col_3{
+  width:33.33%;
   text-align: left;
   padding: .5em;
   float:left;
@@ -163,8 +164,19 @@ footer a{
 footer a:hover{
   color: #420a09;
 }
-.footer_col_1, .footer_col_2, .footer_col_3{
-  width:33.33%;
+.footer_col_1{
+  width:32%;
+  text-align: left; 
+  float:left;
+  margin-left: .5em;
+}
+.footer_col_2{
+  width:33.3%;
+  text-align: left; 
+  float:left;
+}
+.footer_col_3{
+  width:33.3%;
   text-align: left; 
   float:left;
 }
@@ -172,11 +184,21 @@ span
 {
   display: block;
   float:left;
-  text-align: center;
+  text-align: right;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:1201px){
   body{
-    font-size: 14px;
+    img
+  }
+
+  @media only screen and (max-width:px){
+  body{
+    img
+  }
+
+  @media only screen and (max-width:px){
+  body{
+    img
   }
   
