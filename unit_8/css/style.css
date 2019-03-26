@@ -29,19 +29,23 @@ All caps. may be used for short length labels, menus and headings. NOT long sect
 a{
   display:block;
 }
-html, body{
+html{
   width: 100%;
   margin: 0 auto;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
-  background-color:#ffffff;
-  color: #142643; 
+  background-color:#142643;
 }
-#tour_gallery, #footer, .footer_col, .slogan, .logo, .partners{
+body{
   max-width: 1280px;
   margin: 0 auto;
 }
-header, section, footer{
+#header_container, #nav_container, #main, #tour_gallery, 
+#footer, .footer_col, .slogan, .logo, .partners {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header, nav, footer{
   width:100%;
 }
 .slogan, .logo, .partners{
@@ -51,6 +55,9 @@ header{
   padding-top: 1.5%;
   background-color: #142643;
 }
+h1, h2, h3, h4{
+  font-family: 'Oswald', sans-serif;
+  }
 h1 {
   color: #82a5c4; 
   text-align: center;
@@ -66,6 +73,11 @@ h3{
   color: #bea692;
   text-align: center;
   font-size: 1.5em;
+}
+h4{
+  color: #82a5c4;
+  text-align: left;
+  font-size: 1.25em;
 }
 .logo{
   width:33.33%;
@@ -112,33 +124,31 @@ nav a:hover{
   min-width: "400px";
   text-align: center;
 }
-
 #main{
-  width: 100%
-  background-color: #ffffff;
-  color:#142643;
+  background-color: #142643;
+  color:#ffffff;
   margin-bottom: 2em;
 }
-#main h2 h3{
+#main h2{
   display: block;
   text-align: center;
   padding-top: 1.0em;
   padding-bottom: 1.0em;
 }
-#main h3{
-  color: #82a5c4;
-}
 #main_col{
-  max-width: 1280px;
-  margin: 0 auto;
   padding-bottom: 2em;
 }
-.main_col_1, .main_col_2, .main_col_3{
-  width:33.33%;
-  text-align: left;
-  padding: .5em;
+.main_col_1, .main_col_2{
+  width:48%;
+  text-align: justify;
+  margin-left: .6em;
+  margin-right: .6em;
   float:left;
 } 
+.name {
+  text-align: right;
+}
+
 .tour {
   width:33.33%;
   min-width: 400px;
