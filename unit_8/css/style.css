@@ -16,6 +16,9 @@ Black #000000
 
 Typeface Rules:
 
+Logo
+font-family: 'Agency FB' 
+
 h1-6 
 font-family: 'Oswald', sans-serif; (bold 700)
 
@@ -74,11 +77,6 @@ h3{
   text-align: center;
   font-size: 1.5em;
 }
-h4{
-  color: #82a5c4;
-  text-align: left;
-  font-size: 1.25em;
-}
 .logo{
   width:33.33%;
   float: left;
@@ -135,18 +133,25 @@ nav a:hover{
   padding-top: 1.0em;
   padding-bottom: 1.0em;
 }
-#main_col{
-  padding-bottom: 2em;
+#main h4{
+  display: block;
+  color: #82a5c4;
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 3.0em;
 }
-.main_col_1, .main_col_2{
-  width:48%;
+#main_col{
+  padding-bottom: 5em;
   text-align: justify;
-  margin-left: .6em;
-  margin-right: .6em;
+  margin-left: 20.0em;
+  margin-right: 20.0em;
   float:left;
 } 
 .name {
   text-align: right;
+  color: #82a5c4;
+  padding-top: .75em;
+  padding-bottom: 2.0em;
 }
 
 .tour {
@@ -178,16 +183,16 @@ footer a:hover{
   width:32%;
   text-align: left; 
   float:left;
-  margin-left: .5em;
+  margin-left: 1.0em;
 }
 .footer_col_2{
-  width:33.3%;
+  width:32%;
   text-align: left; 
   float:left;
 }
 .footer_col_3{
-  width:33.3%;
-  text-align: left; 
+  width:32%;
+  text-align: right; 
   float:left;
 }
 span
@@ -199,7 +204,7 @@ span
 
 @media only screen and (max-width:1201px){
   body{
-    img
+    .hero {
   }
 
   @media only screen and (max-width:px){
