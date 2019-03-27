@@ -28,10 +28,8 @@ font-family: 'Montserrat', sans-serif; (regular 400, regular 400 italic)
 Text no smaller than 16px except items such as disclaimers and footers
 All caps. may be used for short length labels, menus and headings. NOT long sections of text.*/
 * { margin:0; padding:0; box-sizing:border-box; }
-/* Global CSS Styles */
-a{
-  display:block;
-}
+/* Global CSS Styles 
+  display:block;*/
 html{
   width: 100%;
   margin: 0 auto;
@@ -43,7 +41,7 @@ body{
   max-width: 1280px;
   margin: 0 auto;
 }
-#header_container, #nav_container, #main, #tour_gallery, 
+#header_container, #nav_container, #main, #blockquotes, #tour_gallery, 
 #footer, .footer_col, .slogan, .logo, .partners {
   max-width: 1280px;
   margin: 0 auto;
@@ -131,6 +129,8 @@ nav a:hover{
   background-color: #142643;
   color:#ffffff;
   margin-bottom: 2em;
+  margin-left:2em;
+  margin-right:2em;
 }
 #main h2{
   display: block;
@@ -145,15 +145,17 @@ nav a:hover{
   font-size: 1.5em;
   padding-bottom: 3.0em;
 }
-#main_col{
-  padding-bottom: 5em;
+#main_col,{
   text-align: justify;
-  margin-left: 20.0em;
-  margin-right: 20.0em;
+  margin-left: 20em;
+  margin-right: 20em;
   float:left;
 } 
+blockquote{
+  font-style: italic;
+}
 .name {
-  text-align: right;
+  text-align: left;
   color: #82a5c4;
   padding-top: .75em;
   padding-bottom: 2.0em;
@@ -163,6 +165,7 @@ nav a:hover{
   width:33.33%;
   float:left;
   text-align: center;
+  padding-top: 4em;
   padding-bottom:1em;
 }
 .tour img {
@@ -219,7 +222,7 @@ span
     background-image: "image/bondi_beach_pools_med.jpg";
     background-image: "image/bondi_beach_pools_med.jpg";
 }
-@media only screen and (max-width:730px){
+@media only screen and (max-width:100px){
    .hero_1 {
     background-image:"image/hero_seagull_sml.jpg";
   }
