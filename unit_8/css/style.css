@@ -119,8 +119,13 @@ nav a:hover{
   font-size: 0;
 }
 .hero{
-  min-width: "400px";
+  width:100%;
+  height:auto;
   text-align: center;
+}
+.hero img{
+  width:100%;
+  height:auto;
 }
 #main{
   background-color: #142643;
@@ -156,13 +161,15 @@ nav a:hover{
 
 .tour {
   width:33.33%;
-  min-width: 400px;
   float:left;
   text-align: center;
   padding-bottom:1em;
 }
 .tour img {
   border-radius: 50%;
+  padding-right: .5%;
+  width:100%;
+  height:auto;
 }
 #button-booking{
 margin:1.75em 7.5em;
@@ -201,19 +208,19 @@ span
   float:left;
   text-align: right;
 }
-
-@media only screen and (max-width:1201px){
-  body{
-    .hero {
+/**
+@media only screen and (max-width:1201px)
+{
+  .hero_1 {
+    background-image: "image/hero_seagull_med.jpg";
   }
-
-  @media only screen and (max-width:px){
-  body{
-    img
+  .tour {
+    background-image: "image/harbour_bridge_sth_pylon_med.jpg";
+    background-image: "image/bondi_beach_pools_med.jpg";
+    background-image: "image/bondi_beach_pools_med.jpg";
+}
+@media only screen and (max-width:730px){
+   .hero_1 {
+    background-image:"image/hero_seagull_sml.jpg";
   }
-
-  @media only screen and (max-width:px){
-  body{
-    img
-  }
-  
+}**/
