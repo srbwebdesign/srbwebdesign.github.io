@@ -154,8 +154,8 @@ h4 {
 }
 
 .button-booking {
-  background: #420A09; 
-  color: #BEA692;
+  background: #BEA692; 
+  color: #0F3946;
   font: bold 14px; 
   padding: 12px 15px; 
   width: 160px; 
@@ -163,6 +163,7 @@ h4 {
   text-align: center;
   text-decoration: none; 
   cursor: pointer;
+  margin:auto;
 }
 
 footer {
@@ -177,12 +178,9 @@ footer a {
 footer a:hover {
   color: #420a09;
 }
-.footer_col_1 {
-  padding-left: 1.0em;
-}
 .footer_col_1, .footer_col_2, .footer_col_3 {
   width: 32%;
-  text-align: left; 
+  text-align: center; 
   float: left;
 }
 footer span {
@@ -191,13 +189,13 @@ footer span {
   text-align: right;
 }
 
-@media only screen and (max-width:990px) and (min-width:761);
+@media only screen (max-width:990px) and (min-width:761);
 {
-    .footer_col_1, .footer_col_2, .footer_col_3 {
+  .footer_col_1, .footer_col_2, .footer_col_3 {
   width: 100%;
   }
   .social_button{
-    width: .75%;
+    width: 5em;
   }
 
 
