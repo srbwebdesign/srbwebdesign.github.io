@@ -30,7 +30,7 @@ All caps. may be used for short length labels, menus and headings. NOT long sect
 * { margin:0; padding:0; box-sizing:border-box; }
 /* Global CSS Styles 
   display:block;*/
-body{
+body {
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   background-color:#142643;
@@ -40,10 +40,10 @@ body{
 header, nav, #tour_gallery, footer{
   width:100%;
 } 
-header{
+header {
   background-color: #142643;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
   }
 h1 {
@@ -52,37 +52,38 @@ h1 {
   font-size: 3.00em;
   padding-top: 1.5em;
 }
-h2{
+h2 {
   color: #bea692;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2em;
 }
-h3{
+h3 {
   color: #bea692;
-  text-align: center;
-  font-size: 2.0em;
-}
-h4{
-  color:#82a5c4;
   text-align: center;
   font-size: 1.5em;
 }
-.logo, .slogan, .partners{
+h4 {
+  color:#82a5c4;
+  text-align: center;
+  font-size: 1em;
+}
+.logo, .slogan, .partners {
   width:33.33%;
   float: left;
   text-align: center;
   margin-top: 2.0em;
   margin-bottom: 2.0em;
 }
-.partners{
- display:block;
- float:right; 
+.partners {
+ display: block;
+ width: 7.8em;
+ float: right; 
 }
-nav{
+nav {
   background-color: #0F394B;
   font-family: 'Montserrat', sans-serif;
  }
-nav a{
+nav a {
   background-color: #420A09;
   color: #bea692;
   text-decoration: none;
@@ -90,10 +91,10 @@ nav a{
   float: left;
   padding: .94em; 
 }
-nav a:hover{
+nav a:hover {
   background-color: #0F394B;
 }
-.clearfix:after{
+.clearfix:after {
   visibility: hidden;
   display: block;
   content: " ";
@@ -101,59 +102,68 @@ nav a:hover{
   height: 0;
   font-size: 0;
 }
-#hero{
+#hero {
   background: url("../image/hero_seagull_lge.jpg") no-repeat;
   background-size: cover;
   width:100%;
   max-width: 100%;
   height:50em;
 }
-#hero h1{
+#hero h1 {
+  padding: 3em;
   color: #142643;
-  text-decoration: 
+  text-shadow: 3px 2px white; 
 }
-#main{
+#main {
   background-color: #142643;
   color: #ffffff;
   margin: 3em 5em 3em 5em;
 }
-#main h3{
-  display: block;
-  text-align: center;
-  padding-top: 1.0em;
-  padding-bottom: 1.0em;
+#main h2{
+  padding-bottom: 1em;
 }
-#main h4{
-  display: block;
-  color: #82a5c4;
-  text-align: center;
-  font-size: 1.5em;
-  padding-bottom: 3.0em;
-}
-blockquote{
+blockquote {
   font-style: italic;
-  padding-bottom: 3.0em;
 }
-.name {
-  text-align: left;
+cite {
   color: #82a5c4;
 }
-.bridge, .parks, .bondi {
+.tour {
   display: block;
   float: left;
   width: 33.33%; 
 }
- #tour_gallery img {
+#tour_gallery img {
   border-radius: 50%;
-  padding-right: .5%;
+  padding: 1em;
+  max-width: 350px;
 }
-#button-booking {
-  margin:1.75em 7.5em;
+h3 {
+  text-align: center;
+  padding-top: 1.0em;
+}
+h4 {
+  display: block;
+  color: #82a5c4;
+  text-align: center;
+  padding-bottom: 3.0em;
+}
+
+.button-booking rezdy rezdy-modal {
+  background: #420A09; 
+  border: 5px solid white;
+  color: #ffffff;
+  font: bold 14px; 
+  padding: 12px 15px; 
+  width: 160px; 
+  display: block; 
+  text-decoration: none; 
+  cursor: pointer;
 }
 footer {
   padding-top: 1.75em;
   padding-bottom: 1.5em;
-  background-color:#0F394B;
+  background-color: #0F394B;
   color: #FFFFFF;
 }
 footer a {
@@ -165,32 +175,25 @@ footer a:hover {
 .footer_col_1 {
   margin-left: 1.0em;
 }
-.footer_col_1,.footer_col_2,.footer_col_3 {
-  width:32%;
+.footer_col_1, .footer_col_2, .footer_col_3 {
+  width: 32%;
   text-align: left; 
-  float:left;
+  float: left;
 }
 footer span {
   display: block;
-  float:left;
+  float: left;
   text-align: right;
 }
 
-/**@media only screen and (max-width: 1280px) and (min-width:1201)
+@media only screen and (max-width: 1280px) and (min-width:1201)
 {
-  #hero{
+  #hero img{
     width:75%;
   }
-  .bridge{
+  /**
+  .tour img{
     width:75%;
-  }
-  .parks{
-    width:75%;
-  }
-  .bondi{
-    width:75%;
-  }
-  .bridge, .parks, .bondi{
     text-align: center;
     background-repeat: no-repeat;
     background-size: contain;
