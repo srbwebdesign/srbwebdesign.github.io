@@ -30,19 +30,10 @@ All caps. may be used for short length labels, menus and headings. NOT long sect
 * { margin:0; padding:0; box-sizing:border-box; }
 /* Global CSS Styles 
   display:block;*/
-html{
-  width: 100%;
-  margin: 0 auto;
+body{
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   background-color:#142643;
-}
-body{
-  max-width: 1280px;
-  margin: 0 auto;
-}
-#header_container, #nav_container, #main, #blockquotes, 
-#footer, .footer_col, .slogan, .logo, .partners {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -50,7 +41,6 @@ header, nav, #tour_gallery, footer{
   width:100%;
 } 
 header{
-  padding-top: 1.5%;
   background-color: #142643;
 }
 h1, h2, h3, h4{
@@ -59,36 +49,34 @@ h1, h2, h3, h4{
 h1 {
   color: #82a5c4; 
   text-align: center;
-  font-size: 2.75em;
+  font-size: 3.00em;
   padding-top: 1.5em;
 }
 h2{
   color: #bea692;
   text-align: center;
-  font-size: 2.0em;
+  font-size: 2.5em;
 }
 h3{
   color: #bea692;
   text-align: center;
+  font-size: 2.0em;
+}
+h4{
+  color:#82a5c4;
+  text-align: center;
   font-size: 1.5em;
 }
-.logo{
+.logo, .slogan, .partners{
   width:33.33%;
   float: left;
   text-align: center;
-  padding-bottom: 2.85em
-}
-.slogan{
-  width:33.33%;
-  float: left;
-  text-align: center;
-  padding-top: 2.0em;
-  padding-bottom: 3.85em;
+  margin-top: 2.0em;
+  margin-bottom: 2.0em;
 }
 .partners{
-  width:33.33%;
-  float: left;
-  text-align: center;
+ display:block;
+ float:right; 
 }
 nav{
   background-color: #0F394B;
@@ -113,14 +101,23 @@ nav a:hover{
   height: 0;
   font-size: 0;
 }
+#hero{
+  background: url("../image/hero_seagull_lge.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  max-width: 100%;
+  height:50em;
+}
+#hero h1{
+  color: #142643;
+  text-decoration: 
+}
 #main{
   background-color: #142643;
   color: #ffffff;
-  margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 3em 5em 3em 5em;
 }
-#main h2{
+#main h3{
   display: block;
   text-align: center;
   padding-top: 1.0em;
@@ -133,63 +130,53 @@ nav a:hover{
   font-size: 1.5em;
   padding-bottom: 3.0em;
 }
-#main_col{
-  text-align: justify;
-  margin-left: 10em;
-  margin-right: 10em;
-  float: left;
-} 
 blockquote{
   font-style: italic;
+  padding-bottom: 3.0em;
 }
 .name {
   text-align: left;
   color: #82a5c4;
-  padding-top: .75em;
-  padding-bottom: 2.0em;
 }
 .bridge, .parks, .bondi {
-  width: 33.33%;
+  display: block;
   float: left;
-  padding-top: 4em;
-  padding-bottom: 1em; 
-  text-align: center;
+  width: 33.33%; 
 }
  #tour_gallery img {
   border-radius: 50%;
   padding-right: .5%;
 }
-#button-booking{
+#button-booking {
   margin:1.75em 7.5em;
 }
-footer{
+footer {
   padding-top: 1.75em;
   padding-bottom: 1.5em;
   background-color:#0F394B;
   color: #FFFFFF;
 }
-footer a{
+footer a {
   color: #82a5c4;
 }
-footer a:hover{
+footer a:hover {
   color: #420a09;
 }
-.footer_col_1{
+.footer_col_1 {
   margin-left: 1.0em;
 }
-.footer_col_1,.footer_col_2,.footer_col_3{
+.footer_col_1,.footer_col_2,.footer_col_3 {
   width:32%;
   text-align: left; 
   float:left;
 }
-footer span
-{
+footer span {
   display: block;
   float:left;
   text-align: right;
 }
 
-@media only screen and (max-width: 1280px) and (min-width:1201)
+/**@media only screen and (max-width: 1280px) and (min-width:1201)
 {
   #hero{
     width:75%;
@@ -239,3 +226,4 @@ footer span
     width:50%;
   }
 }
+**/
