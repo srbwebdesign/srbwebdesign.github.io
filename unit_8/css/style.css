@@ -74,12 +74,13 @@ h4 {
   width: 15em;
 }
 .slogan{
-  text-align: right;
+  text-align: center;
 }
 .partners {
  display: block;
- width: 5em;
- float: right; 
+ width: 6em;
+ float: right;
+ padding-right: 1em; 
 }
 nav {
   background-color: #0F394B;
@@ -108,7 +109,6 @@ nav a:hover {
   background: url("../image/hero_seagull_lge.jpg") no-repeat;
   background-size: cover;
   width:100%;
-  max-width: 100%;
   height:50em;
 }
 #hero h1 {
@@ -139,7 +139,7 @@ cite {
 #tour_gallery img {
   border-radius: 50%;
   padding: 1em;
-  max-width: 350px;
+  max-width: 400px;
 }
 h3 {
   text-align: center;
@@ -155,7 +155,7 @@ h4 {
 
 .button-booking {
   background: #BEA692; 
-  color: #0F3946;
+  color: #420A09;
   font: bold 14px; 
   padding: 12px 15px; 
   width: 160px; 
@@ -163,7 +163,7 @@ h4 {
   text-align: center;
   text-decoration: none; 
   cursor: pointer;
-  margin:auto;
+  margin: 0 auto;
 }
 
 footer {
@@ -183,27 +183,80 @@ footer a:hover {
   text-align: center; 
   float: left;
 }
-footer span {
-  display: block;
+footer div {
   float: left;
   text-align: right;
 }
 
-@media only screen (max-width:990px) and (min-width:761);
-{
+@media only screen and (max-width: 1110px) {
   .footer_col_1, .footer_col_2, .footer_col_3 {
   width: 100%;
   }
-  .social_button{
-    width: 5em;
+ #hero {
+  height: 40em;
   }
-
-
-/**}
-@media only screen and (max-width:760px) and (min-width:)
-{
-  #hero {
-    width:50%;
-  }**/
-  
+  .social_button{
+  padding-top: 1em;
+  }
+  .social_button img {
+  width: 5em;
+  }
+  .tour {
+  width: 100%; 
+  }
 }
+@media only screen and (max-width: 1107px){
+
+#hero h1 {
+  text-align: left;
+  padding: 1em 1em 5em;
+  }
+@media only screen and (max-width: 720px) {
+  .slogan{
+  font-size: 95%;
+  }
+  #hero {
+  height: 35em;
+  }
+  #hero h1 {
+  text-align: left;
+  font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px){
+   #hero {
+  height: 25em;
+  }
+  .slogan {
+    font-size: 70%;
+    text-align: center;
+  }
+  .partner img {
+    width: 25em;
+  }
+  .partners {
+   display: block;
+   width: 6em;
+   float: right;
+   padding-right: 1em; 
+  }
+  @media only screen and (max-width: 509px){
+  
+  #hero {
+    height: 25em;
+  }
+  .slogan {
+    font-size: 70%;
+    text-align: center;
+  }
+  .partner img {
+    width: 25em;
+  }
+  .partners {
+   display: block;
+   width: 6em;
+   float: right;
+   padding-right: 1em; 
+  }
+}
+ 
