@@ -77,7 +77,6 @@ h4 {
   text-align: center;
 }
 .partners {
- display: block;
  width: 6em;
  float: right;
  padding-right: 1em; 
@@ -241,22 +240,10 @@ footer div {
    padding-right: 1em; 
   }
   @media only screen and (max-width: 509px){
-  
-  #hero {
-    height: 25em;
-  }
-  .slogan {
-    font-size: 70%;
-    text-align: center;
-  }
-  .partner img {
-    width: 25em;
-  }
   .partners {
-   display: block;
+   float: clear;
    width: 6em;
-   float: right;
-   padding-right: 1em; 
+   display:inline;
   }
 }
  
