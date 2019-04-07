@@ -10,7 +10,6 @@ Light Blue #82a5c4
 Teal #0F394B rgb(15, 57, 75)
 Tan #BEA692
 Red #420A09 rgb(66, 10, 9)
-Rose #7D0226
 White #FFFFFF
 Black #000000
 
@@ -20,7 +19,7 @@ Logo
 font-family: 'Agency FB' 
 
 h1-6 
-font-family: 'Oswald', sans-serif; (bold 700)
+font-family: 'Agency FB', sans-serif; (bold 700)
 
 body
 font-family: 'Montserrat', sans-serif; (regular 400, regular 400 italic)
@@ -66,20 +65,21 @@ h4 {
   text-align: center;
   font-size: 1em;
 }
-.logo, .slogan, .partners {
+.logo, .slogan, .social_media{
   width:33.33%;
   float: left;
 }
 .logo{
-  width: 15em;
+  padding-top: .5em;
+  width: 25em;
 }
 .slogan{
-  text-align: center;
+  padding-top: 1.5em;
+  text-align: right;
 }
-.partners {
- width: 6em;
- float: right;
- padding-right: 1em; 
+.social_media {
+ text-align: right; 
+ padding-top: 3em;
 }
 nav {
   background-color: #0F394B;
@@ -105,15 +105,21 @@ nav a:hover {
   font-size: 0;
 }
 #hero {
-  background: url("../image/hero_seagull_lge.jpg") no-repeat;
+  background: url("../image/sydney_harbour_panoramic.jpg") no-repeat;
   background-size: cover;
   width:100%;
   height:50em;
 }
 #hero h1 {
-  padding: 3em;
+  padding: 1 3 3 5em;
   color: #142643;
   text-shadow: 2px 2px white; 
+}
+#hero_2{
+  background: url("../image/sydney_harbour_view.jpg") no-repeat;
+  background-size: cover;
+  width:100%;
+  height:50em;
 }
 #main {
   background-color: #142643;
@@ -151,10 +157,10 @@ h4 {
   text-align: center;
   padding-bottom: 3.0em;
 }
-
 .button-booking {
-  background: #BEA692; 
-  color: #420A09;
+  background: #420A09; 
+  color: #BEA692;
+  border: solid 1px #82a5c4;
   font: bold 14px; 
   padding: 12px 15px; 
   width: 160px; 
@@ -178,72 +184,66 @@ footer a:hover {
   color: #420a09;
 }
 .footer_col_1, .footer_col_2, .footer_col_3 {
-  width: 32%;
-  text-align: center; 
+  width: 33.33%;
   float: left;
 }
-footer div {
-  float: left;
-  text-align: right;
+.footer_col_1{
+  text-align: left; 
+  margin-left: 1em;
 }
-
+.footer_col_2 {
+  padding-top: 3em;
+  text-align: center;
+}
+.footer_col_3{
+  text-align: center;
+}
+.footer_col_3 img {
+  width:4em;
+  display: block;
+}
 @media only screen and (max-width: 1110px) {
-  .footer_col_1, .footer_col_2, .footer_col_3 {
-  width: 100%;
-  }
- #hero {
+  #hero {
   height: 40em;
   }
-  .social_button{
-  padding-top: 1em;
-  }
-  .social_button img {
-  width: 5em;
+  .footer_col_1, .footer_col_2, .footer_col_3 {
+  width: 100%;
+  display:block;
+  padding-top: .5em;
+  text-align: center;
   }
   .tour {
   width: 100%; 
   }
-}
-@media only screen and (max-width: 1107px){
+@media only screen and (max-width: 945px){
+  body{
+  font-size: 75%;
+  }
+ .logo, .slogan, .social_media{
+  width:100%;
+  text-align: center;
+  }
+.logo{
+  padding-top: .5em;
+  width: 15em;
+  }
+  h1, h2
+  .social_media img{
+  width:5em;
+  }
+  .tour img {
+    width:75%;
+  }
 
-#hero h1 {
-  text-align: left;
-  padding: 1em 1em 5em;
-  }
+}
+/**
 @media only screen and (max-width: 720px) {
-  .slogan{
-  font-size: 95%;
-  }
-  #hero {
-  height: 35em;
-  }
-  #hero h1 {
-  text-align: left;
-  font-size: 2em;
+   #hero{
+  height:30em;
   }
 }
 @media only screen and (max-width: 600px){
-   #hero {
-  height: 25em;
   }
-  .slogan {
-    font-size: 70%;
-    text-align: center;
-  }
-  .partner img {
-    width: 25em;
-  }
-  .partners {
-   display: block;
-   width: 6em;
-   float: right;
-   padding-right: 1em; 
-  }
-  @media only screen and (max-width: 509px){
-  .partners {
-   float: clear;
-   width: 6em;
-   display:inline;
-  }
+ **/ 
 }
  
